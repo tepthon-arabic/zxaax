@@ -1,1 +1,2 @@
-web: bash start.sh
+web: python3 server.py
+worker: python3 -m Tepthon
