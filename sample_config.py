@@ -31,7 +31,7 @@ class Config(object):
     TZ = os.environ.get("TZ", "Asia/Baghdad")
     # set this with required zed repo link
     UPSTREAM_REPO = os.environ.get(
-        "UPSTREAM_REPO", "https://github.com/RRYR7/Scalingo-Tep"
+        "UPSTREAM_REPO", "https://github.com/tepthon-arabic/zxaax"
     )
     # External plugins repo
     EXTERNAL_REPO = os.environ.get("EXTERNAL_REPO", None)
@@ -177,14 +177,14 @@ class Config(object):
     COUNTRY = str(os.environ.get("COUNTRY", ""))
     TZ_NUMBER = int(os.environ.get("TZ_NUMBER", 1))
     # For updater plugin
-    UPSTREAM_REPO_BRANCH = os.environ.get("UPSTREAM_REPO_BRANCH", "main")
+    UPSTREAM_REPO_BRANCH = os.environ.get("UPSTREAM_REPO_BRANCH", "master")
     # dont touch this at all
     SUDO_USERS: Set[int] = set()
     ZEDUBLOGO = None
     BOTLOG = False
     BOTLOG_CHATID = 0
     # extra plugins realted vars below  4
-    EXTERNAL_REPOBRANCH = os.environ.get("EXTERNAL_REPOBRANCH", "main")
+    EXTERNAL_REPOBRANCH = os.environ.get("EXTERNAL_REPOBRANCH", "master")
     OLDZED_REPO = os.environ.get("OLDZED_REPO", "https://github.com/Zed-Thon/ZED_USERBOT")
     VC_REPO = os.environ.get("VC_REPO", "https://github.com/rogerpq/TVCPlayer")
     VC_REPOBRANCH = os.environ.get("VC_REPOBRANCH", "zvcplayer")
