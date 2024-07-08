@@ -2,7 +2,7 @@
     "name": "سـورس تيبثـون العربي - 𝗦𝗼𝘂𝗿𝗰𝗲 𝗧𝗲𝗽𝘁𝗵𝗼𝗻 𝗔𝗿𝗮𝗯𝗶𝗰",
     "description": "لـ تنصـيـب سـورس تيبثـون العربـي على سكالينجو مجانًا",
     "addons": ["scalingo-postgresql"],
-    "keywords": ["bot", "python","scalingo"],
+    "keywords": ["bot","python","scalingo"],
     "repository": "https://github.com/tepthon-arabic/zxaax",
     "logo": "https://graph.org/file/9a2e99d95903e6b8f9fb9.jpg",
     "stack": "container",
